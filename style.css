@@ -1,0 +1,133 @@
+body
+{
+	background-color: rgb(25, 25, 25);
+}
+.icon-bar
+{
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+}
+.icon-bar a 
+{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 12px 0;
+	transition: background-color 1s;
+	color: white;
+	font-size: 36px;
+}
+.icon-bar a:hover
+{
+	background-color: rgb(35, 35, 35);
+}
+.active
+{
+	background-color: #B83334;
+}
+.GameLogo:hover > img
+{
+	
+    content: url("Icons/GameLogo2.png")
+}
+
+#discord
+{
+	
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.container
+{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+}
+
+.container .box
+{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background: rgb(55, 25, 25);
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container .box .icon
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.container .box:hover .icon
+{
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+
+}
+.icon_download
+{
+	
+	width: 100px;
+	height: 100px;
+}
+
+.container .box img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+	color: #fff;
+}
+.container .box:hover img
+{
+	font-size: 40px;
+}
+.container .box .content
+{
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+}
+.container .box:hover .content
+{
+	top: 100px;
+	opacity: 1;
+}
+.container .box .content h3
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+}
+.container .box .content p
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
