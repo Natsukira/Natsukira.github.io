@@ -172,6 +172,14 @@ section:nth-child(odd)
 {
 	background: rgb(25, 25, 25);
 }
+section p 
+{
+	color: white;
+}
+section h3 
+{
+	color: white;
+}
 .gotop
 {
 	position: fixed;
@@ -187,4 +195,8 @@ section:nth-child(odd)
 
 	color: white;
 	font-size: 22px;
+}
+section div img
+{
+	margin: auto;
 }
