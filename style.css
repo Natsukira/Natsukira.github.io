@@ -131,3 +131,27 @@ body
 	padding: 0;
 	color: #fff;
 }
+.container .box:nth-child(1) .icon
+{
+	background: #319635;
+}
+.container .box:nth-child(1) 
+{
+	background: #4caf50;
+}
+.container .box:nth-child(2) .icon
+{
+	background: #0c194f;
+}
+.container .box:nth-child(2) 
+{
+	background: #162359;
+}
+.container .box:nth-child(3) .icon
+{
+	background: #4f0c0c;
+}
+.container .box:nth-child(3) 
+{
+	background: #591616;
+}
